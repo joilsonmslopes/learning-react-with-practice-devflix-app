@@ -19,9 +19,9 @@ export const Title = styled.h3`
 `;
 
 export const ExtraLink = styled.a`
-  margin-left: 16px;
+  transform: scale(0.9);
   text-decoration: none;
-  transition: opacity 0.3s;
+  transition: all 0.3s;
   &:hover,
   &:focus {
     opacity: 0.5;
